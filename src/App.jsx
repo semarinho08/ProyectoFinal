@@ -124,7 +124,7 @@ function AppContent({ currentUser, setCurrentUser, users, setUsers }) {
 
   if (loading) {
     return (
-      <div className="p-6 text-center text-gray-500 animate-pulse">
+      <div className="p-6 text-center text-gray-501 animate-pulse">
         Cargando...
       </div>
     );

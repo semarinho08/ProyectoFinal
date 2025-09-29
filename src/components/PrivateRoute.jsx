@@ -7,3 +7,4 @@ export default function PrivateRoute({ children, currentUser }) {
   }
   return children;
 }
+
