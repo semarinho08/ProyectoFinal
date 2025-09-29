@@ -1,16 +1,99 @@
-# React + Vite
+✅ Proyecto Final - Team To-Do
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web colaborativa donde dos usuarios pueden crear, consultar, marcar y buscar tareas.
+Este proyecto fue desarrollado como parte del trabajo final en equipo, aplicando buenas prácticas de desarrollo front-end y organización en GitHub.
 
-Currently, two official plugins are available:
+📌 Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Crear tareas con nombre del autor y descripción.
 
-## React Compiler
+Consultar la lista de todas las tareas existentes.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Marcar tareas como completadas.
 
-## Expanding the ESLint configuration
+Filtrar y buscar tareas fácilmente por texto o estado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Uso colaborativo: pensado para que dos personas trabajen juntas en la gestión de tareas.
+
+🛠️ Tecnologías utilizadas
+
+Frontend: React + Vite
+
+Estilos: CSS3
+
+Herramientas: Node.js, npm
+
+Control de versiones: Git + GitHub
+
+📂 Estructura del proyecto
+
+ProyectoFinal/
+│── public/ # Recursos públicos
+│ └── vite.svg
+│
+│── src/ # Código fuente
+│ ├── App.jsx # Componente principal
+│ ├── TodoList.jsx # Lógica y render de tareas
+│ ├── assets/ # Imágenes y recursos
+│ ├── main.jsx # Punto de entrada
+│ ├── App.css # Estilos del componente App
+│ ├── index.css # Estilos globales
+│
+│── .gitignore
+│── package.json
+│── vite.config.js
+│── README.md
+
+🚀 Instalación y ejecución
+
+Clona este repositorio:
+git clone https://github.com/semarinho08/ProyectoFinal.git
+
+Accede a la carpeta del proyecto:
+cd ProyectoFinal
+
+Instala las dependencias:
+npm install
+
+Inicia el servidor de desarrollo:
+npm run dev
+
+Abre el navegador en la dirección que te indique (por defecto http://localhost:5173
+).
+
+👥 Equipo de trabajo
+
+Colaborador 1: [Tu nombre aquí]
+
+Colaborador 2: [Nombre del compañero]
+
+📖 Contexto del proyecto
+
+El objetivo del Team To-Do es ofrecer una herramienta sencilla pero funcional que permita a dos usuarios organizar sus tareas de forma compartida. Con este desarrollo se busca practicar:
+
+La colaboración con Git y GitHub.
+
+La organización de proyectos en equipo.
+
+La aplicación de React y Vite en el desarrollo de aplicaciones modernas.
+
+🤝 Contribuciones
+
+Si quieres contribuir a este proyecto:
+
+Haz un fork del repositorio.
+
+Crea una rama con tu nueva funcionalidad:
+git checkout -b feature/nueva-funcionalidad
+
+Realiza tus cambios y haz commit:
+git commit -m "Agregando nueva funcionalidad"
+
+Haz push a tu rama:
+git push origin feature/nueva-funcionalidad
+
+Abre un Pull Request.
+
+📜 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente, siempre y cuando se dé el crédito correspondiente.
