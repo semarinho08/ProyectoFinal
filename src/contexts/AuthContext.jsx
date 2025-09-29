@@ -14,7 +14,7 @@ export function AuthProvider({ children }) {
   };
 
   const logout = () => {
-    toast.info("Sesión cerrada.");
+    toast.info("Sesión cerrada");
     setUser(null);
   };
 
